@@ -11,7 +11,7 @@ Important! Use at your own risk. I created this for myself to setup new computer
 It works on my machine, but check the code before running anything.
 
 ## List of 💣Bombs
-```SH
+```sh
 #001 - Permanently show hidden files on mac
 sh show-hidden-files.sh
 
@@ -27,8 +27,8 @@ sh git-test.sh
 #005 - Custom Terminal prompt using zsh-git-prompt
 sh zsh-git-prompt.sh
 
-#006 - Javascript npm using nvm
-sh npm.sh
+#006 - Javascript (node, nvm, npm)
+sh javascript.sh
 
 #007 - Python 3 (requires brew.sh)
 sh python.sh
