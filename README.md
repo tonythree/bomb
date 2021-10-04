@@ -12,31 +12,31 @@ It works on my machine, but check the code before running anything.
 
 ## List of 💣Bombs
 ```SH
-#001 - Permanently show hidden files on mac
+# Permanently show hidden files on mac
 sh show-hidden-files.sh
 
-#002 - Brew
+# Brew
 sh brew.sh
 
-#003 - Git
+# Git
 sh git.sh
 
-#004 - Test Git
+# Test Git
 sh git-test.sh
 
-#005 - Custom Terminal prompt using zsh-git-prompt
+# Custom Terminal prompt using zsh-git-prompt
 sh zsh-git-prompt.sh
 
-#006 - Javascript npm using nvm
+# Javascript npm using nvm
 sh npm.sh
 
-#007 - Python 3 (requires brew.sh)
+# Python 3 (requires brew.sh)
 sh python.sh
 
-#008 - AWS CLI v2 + configure
+# AWS CLI v2 + configure
 sh aws.sh
 
-#009 - Serverless Framework (requires npm.sh)
+# Serverless Framework (requires npm.sh)
 sh serverless.sh
 ```
 
