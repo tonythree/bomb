@@ -11,9 +11,9 @@ echo "# Created by python bomb 💣" >> ~/.zshrc
 echo 'eval "$(pyenv init -)"' >> ~/.zshrc
 source ~/.zshrc
 echo "💣 Installing python"
-echo "\n 💣 What Python version do you want? (default: 3.9.7)"
+echo "\n 💣 What Python version do you want? (default: 3.13.2)"
 read version
-version="${version:=3.9.7}"
+version="${version:=3.13.2}"
 pyenv install $version
 pyenv global $version
 exec zsh -l
